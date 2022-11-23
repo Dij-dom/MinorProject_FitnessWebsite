@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+	background-color: #f6f5f7;
+	font-family: 'Open Sans', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1541421033552-fc06dba2ecd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwZ3JhZGllbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header*/
+header a {
+    color: coral;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color:white;
+    border-bottom: 1px solid #F00;
+  }
+  div#logo-container {
+    width: 100px;
+  }
+  
+  div#logo-container img {
+    width: 100%;
+  }
+  
+  nav {
+    width: 60%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    div#logo-container {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    header {
+      flex-direction: column;
+    }
+    nav {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    nav {
+      flex-direction: column
+    }
+    nav a {
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+.text-center {
+	text-align: center;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    color: white
+}
+
+.pricing-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.pricing-box {
+	background-color: #f6f2f2;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+.pricing-box h5 {
+	text-transform: uppercase;
+}
+
+.price {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.price sub, .price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+}
+
+.features-list li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+	border-radius: 25px;
+	border: none;
+	background-color: white;
+	color: #000000;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	transform: translateY(-3px);
+}
+
+.pricing-box-bg-image {
+	background-image: url('https://prowess.qodeinteractive.com/wp-content/uploads/2018/02/h3-slider-img-1.jpg');
+	background-size: cover;
+	background-position: center center ;
+	color: #ffffff;
+}
+.pricing-box-bg-image1 {
+	background-image: url('https://images.unsplash.com/photo-1496147539180-13929f8aa03a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+	background-size: cover;
+	background-position: center center ;
+	color: #ffffff;
+}
+
+.pricing-box-bg-image .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-box-bg-image1 .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-box-bg-image .btn-primary {
+	background-color: #ffffff;
+	color: rgb(4, 4, 4);
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 290px;
+    width: auto;
+}
+.container_footer {
+    font-family: sans-serif;
+    height: 250px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer_div1{
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.footer_div1 h1 {
+    font-size: 22px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.footer_div1 p {
+    font-size: 16px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 0%;
+}
+.footer_div1 a{
+  size: 35px;
+  padding-left: 15px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+.footer_div2 {
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer_div2 h1 {
+    font-size: 22px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.footer_div2 p1 {
+    font-size: 16px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 0%;
+    line-height: 25px;
+}
+.footer_div2 p2 {
+    font-size: 16px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 15px;
+    line-height: 25px;
+}
+.footer_div3 {
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer_div3 h1 {
+    font-size: 22px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.footer_div3 p {
+    font-size: 16px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 0%;
+}
+.footer_div4 {
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 250px;
+    padding-left: 0px;
+    padding-right: 5px;
+    
+}
+.footer_div4 h1 {
+  font-size: 22px;
+  color: aliceblue;
+  padding-left: 10px;
+  padding-bottom: 0px;
+}
+.container {
+  border: 2px solid white;
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 240px;
+    padding: 1px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+}
+::placeholder{
+  color: beige;
+  font-size: small;
+}
+
+.container h1 {
+    text-align: center;
+}
+footer .btn {
+  font-family: 'Baloo Bhai', cursive;
+  margin: 0px 9px;
+  background-color: rgb(10, 96, 133);
+  color: rgb(0, 0, 0);
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer .btn:hover {
+  background-color: rgb(61, 129, 181);
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
